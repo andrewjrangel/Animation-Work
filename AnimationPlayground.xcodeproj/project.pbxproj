@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88605B0D1A24029700B4223E /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88605B0C1A24029700B4223E /* Animations.swift */; };
+		88605B0F1A2402AE00B4223E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88605B0E1A2402AE00B4223E /* Extensions.swift */; };
+		889C6F431A26C4D1007CD874 /* AnimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889C6F421A26C4D1007CD874 /* AnimateView.swift */; };
 		88CF7A9F1A23F6BB00AD7D79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CF7A9E1A23F6BB00AD7D79 /* AppDelegate.swift */; };
 		88CF7AA21A23F6BB00AD7D79 /* AnimationPlayground.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88CF7AA01A23F6BB00AD7D79 /* AnimationPlayground.xcdatamodeld */; };
 		88CF7AA41A23F6BB00AD7D79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CF7AA31A23F6BB00AD7D79 /* ViewController.swift */; };
@@ -14,6 +17,8 @@
 		88CF7AA91A23F6BB00AD7D79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88CF7AA81A23F6BB00AD7D79 /* Images.xcassets */; };
 		88CF7AAC1A23F6BB00AD7D79 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88CF7AAA1A23F6BB00AD7D79 /* LaunchScreen.xib */; };
 		88CF7AB81A23F6BB00AD7D79 /* AnimationPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CF7AB71A23F6BB00AD7D79 /* AnimationPlaygroundTests.swift */; };
+		88D0B99F1A240718007D8A88 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D0B99E1A240718007D8A88 /* BarChart.swift */; };
+		88E89AA91A24065500236F95 /* CircleChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E89AA81A24065500236F95 /* CircleChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88605B0C1A24029700B4223E /* Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		88605B0E1A2402AE00B4223E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		889C6F421A26C4D1007CD874 /* AnimateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateView.swift; sourceTree = "<group>"; };
 		88CF7A991A23F6BB00AD7D79 /* AnimationPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CF7A9D1A23F6BB00AD7D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88CF7A9E1A23F6BB00AD7D79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +46,8 @@
 		88CF7AB11A23F6BB00AD7D79 /* AnimationPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CF7AB61A23F6BB00AD7D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88CF7AB71A23F6BB00AD7D79 /* AnimationPlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPlaygroundTests.swift; sourceTree = "<group>"; };
+		88D0B99E1A240718007D8A88 /* BarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		88E89AA81A24065500236F95 /* CircleChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,11 @@
 		88CF7A9B1A23F6BB00AD7D79 /* AnimationPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				889C6F421A26C4D1007CD874 /* AnimateView.swift */,
+				88D0B99E1A240718007D8A88 /* BarChart.swift */,
+				88E89AA81A24065500236F95 /* CircleChart.swift */,
+				88605B0E1A2402AE00B4223E /* Extensions.swift */,
+				88605B0C1A24029700B4223E /* Animations.swift */,
 				88CF7A9E1A23F6BB00AD7D79 /* AppDelegate.swift */,
 				88CF7AA31A23F6BB00AD7D79 /* ViewController.swift */,
 				88CF7AA51A23F6BB00AD7D79 /* Main.storyboard */,
@@ -164,6 +179,7 @@
 				TargetAttributes = {
 					88CF7A981A23F6BB00AD7D79 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = NZYGQGZG6M;
 					};
 					88CF7AB01A23F6BB00AD7D79 = {
 						CreatedOnToolsVersion = 6.1;
@@ -215,8 +231,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88605B0F1A2402AE00B4223E /* Extensions.swift in Sources */,
 				88CF7AA41A23F6BB00AD7D79 /* ViewController.swift in Sources */,
 				88CF7AA21A23F6BB00AD7D79 /* AnimationPlayground.xcdatamodeld in Sources */,
+				88605B0D1A24029700B4223E /* Animations.swift in Sources */,
+				88E89AA91A24065500236F95 /* CircleChart.swift in Sources */,
+				88D0B99F1A240718007D8A88 /* BarChart.swift in Sources */,
+				889C6F431A26C4D1007CD874 /* AnimateView.swift in Sources */,
 				88CF7A9F1A23F6BB00AD7D79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +432,7 @@
 				88CF7ABD1A23F6BB00AD7D79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88CF7ABE1A23F6BB00AD7D79 /* Build configuration list for PBXNativeTarget "AnimationPlaygroundTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +441,7 @@
 				88CF7AC01A23F6BB00AD7D79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
